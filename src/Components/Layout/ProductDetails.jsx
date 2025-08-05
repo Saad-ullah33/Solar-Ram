@@ -3,7 +3,6 @@ import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { BsCartPlus } from "react-icons/bs";
 import styles from "../../Styles/Style";
 import InnerImageZoom from "react-inner-image-zoom";
-import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 
 const ProductDetails = ({ data }) => {
   const [click, setClick] = useState(false);

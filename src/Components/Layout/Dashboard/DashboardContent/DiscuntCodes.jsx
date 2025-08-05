@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link, json } from "react-router-dom";
 import { AiOutlineDelete, AiOutlineEye } from "react-icons/ai";
-import { DataGrid } from "@material-ui/data-grid";
-import { Button } from "@material-ui/core";
+import { DataGrid } from "@mui/x-data-grid";
+import { Button } from "@mui/material";
 import styles from "../../../../Styles/Style";
 import AddNewCuponCode from "./AddNewCuponCode";
 

@@ -2,8 +2,8 @@ import React from "react";
 import { AiOutlineArrowRight, AiOutlineMoneyCollect } from "react-icons/ai";
 import { MdBorderClear } from "react-icons/md";
 import { Link } from "react-router-dom";
-import { DataGrid } from "@material-ui/data-grid";
-import { Button } from "@material-ui/core";
+import { DataGrid } from "@mui/x-data-grid";
+import { Button } from "@mui/material";
 import { motion } from "framer-motion";
 
 import { productData } from "../../../../Static/data";
