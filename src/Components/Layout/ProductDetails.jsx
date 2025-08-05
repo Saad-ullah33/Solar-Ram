@@ -1,8 +1,9 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { BsCartPlus } from "react-icons/bs";
 import styles from "../../Styles/Style";
+import InnerImageZoom from "react-inner-image-zoom";
+import "react-inner-image-zoom/lib/InnerImageZoom/styles.css";
 
 const ProductDetails = ({ data }) => {
   const [click, setClick] = useState(false);
@@ -15,24 +16,21 @@ const ProductDetails = ({ data }) => {
     );
   }
 
-  const {
-    name,
-    price,
-    description,
-    image_Url,
-    stock
-  } = data;
+  const { name, price, description, image_Url, stock } = data;
 
   return (
     <div className="bg-white">
       <div className={`${styles.section} w-[90%] py-10 flex flex-col md:flex-row gap-6`}>
-        {/* Product Image */}
+        {/* Product Image with Zoom */}
         <div className="w-full md:w-1/2 flex justify-center">
           {image_Url && image_Url.length > 0 ? (
-            <img
+            <InnerImageZoom
               src={image_Url[0].url}
+              zoomSrc={image_Url[0].url}
+              zoomType="hover"
+              zoomPreload
               alt={name}
-              className="max-h-[500px] w-auto object-contain rounded-lg"
+              className="max-h-[500px] object-contain rounded-lg"
             />
           ) : (
             <div className="h-[300px] w-full bg-gray-100 flex items-center justify-center text-gray-400 text-lg">
