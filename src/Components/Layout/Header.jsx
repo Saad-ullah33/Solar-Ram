@@ -15,7 +15,7 @@ import Navbar from "./Navbar";
 import Cart from "../../Components/Cart";
 import Wishlist from "../../Components/Wishlist";
 import ResponsiveHeader from "./ResponsiveHeader/ResponsiveHeader";
-import avatar from "../../assets/avatar.jpg";
+import avatar from "@/assets/avatar.jpg";
 import { useSelector } from "react-redux";
 
 const Header = ({ activeHeading }) => {

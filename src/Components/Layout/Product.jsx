@@ -15,7 +15,7 @@ import ProductDetailsCart from "./ProductDetailsCart.jsx";
 import styles from "../../Styles/Style.js";
 import { removeFromWishlist, addToWishlist } from "../../Redux/WishlistAction.js";
 import { addTocart } from "../../Redux/CartAction.js";
-import noImage from "../../assets/no-image.png";
+import noImage from "@/assets/no-image.png";
 
 const Product = ({ data }) => {
   const { wishlist } = useSelector((state) => state.wishlist);

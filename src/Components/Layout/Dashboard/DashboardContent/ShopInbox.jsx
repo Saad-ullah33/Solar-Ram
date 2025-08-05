@@ -1,6 +1,6 @@
 import React from "react";
 
-import gif from "../../../../assets/processing.gif";
+import gif from "../../@/assets/processing.gif";
 
 const ShopInbox = () => {
   return (

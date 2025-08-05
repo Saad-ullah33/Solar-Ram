@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../../Styles/Style";
 
-import sunpower from "../../assets/sunpower.jpg";
-import tesla from "../../assets/tesla.png";
-import firstSolar from "../../assets/firstsolar.png";
-import lgSolar from "../../assets/lgsolar.png";
-import enphase from "../../assets/enphase.png";
-import canadianSolar from "../../assets/canadiansolar.png";
-import trinaSolar from "../../assets/trinasolar.png";
+import sunpower from "@/assets/sunpower.jpg";
+import tesla from "@/assets/tesla.png";
+import firstSolar from "@/assets/firstsolar.png";
+import lgSolar from "@/assets/lgsolar.png";
+import enphase from "@/assets/enphase.png";
+import canadianSolar from "@/assets/canadiansolar.png";
+import trinaSolar from "@/assets/trinasolar.png";
 
 const Sponsored = () => {
   const logos = [
