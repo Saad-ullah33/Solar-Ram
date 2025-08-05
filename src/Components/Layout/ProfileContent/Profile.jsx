@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import avatar from "../../../Assets/avatar.jpg";
+import avatar from "../../../assets/avatar.jpg";
 import { AiOutlineCamera } from "react-icons/ai";
 import styles from "../../../Styles/Style";
 

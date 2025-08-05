@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { FaSolarPanel, FaStore } from "react-icons/fa";
 
-import reviewImage1 from "../../Assets/reviewImage1.jpg";
-import reviewImage2 from "../../Assets/reviewImage2.jpg";
-import reviewImage3 from "../../Assets/reviewImage3.jpg";
+import reviewImage1 from "../../assets/reviewImage1.jpg";
+import reviewImage2 from "../../assets/reviewImage2.jpg";
+import reviewImage3 from "../../assets/reviewImage3.jpg";
 
 const ProductDetailsInfo = ({ data }) => {
   const [active, setActive] = useState(1);
